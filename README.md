@@ -12,11 +12,11 @@ This project involved the end-to-end design and physical deployment of a multi-s
 
 ## Physical Implementation 
 <img width="449" height="470" alt="image" src="https://github.com/user-attachments/assets/c773e47c-12ea-4597-bf26-445175e41f56" /><img width="686" height="449" alt="image" src="https://github.com/user-attachments/assets/45bd050f-81ed-41d6-a77c-7408216324c0" />
-**Physical** Infrastructure Details:
+**Physical Infrastructure Details**:
 * **Rack Mounting**: 1U Cisco 4321 Integrated Services Router and two 1U Cisco 2960 Catalyst Switches mounted in a standard 19-inch rack.
 * **Power Management**: All network nodes are integrated into a centralized Power Distribution Unit (PDU) for surge protection and power redundancy.
-* **Cabling Standards**: * Data Plane: Copper Straight-Through cabling utilized for Router-to-Switch uplinks and Host-to-Switch access links.
-* **Management Plane**: RJ-45 to RS-232 Roll-Over (Console) cabling used for out-of-band configuration and monitoring via PC0.
+* **Cabling Standards**: * Data Plane: Copper Straight-Through (Green Cables) cabling utilized for Router-to-Switch uplinks and Host-to-Switch access links.
+* **Management Plane**: RJ-45 to RS-232 Roll-Over (Console/Blue Cable) cabling used for out-of-band configuration and monitoring via PC0.
 
 ## Objectives
 1. **Physical Hardware Deployment**: Manually rack and power one Cisco 4321 router and two Cisco 2960 switches.
