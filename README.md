@@ -52,9 +52,21 @@ Action: Enabled GigabitEthernet interfaces and assigned gateway addresses.
 The following sections provice documented proof of the network's operational status across the Physial, Data and Management planes.
 
 1. **Layer 3 Routing & Subnet Integrity**
+
 This output confirms that the Cisco 4321 router is correctly processing the VLSM design and recognizes both the `192.168.10.0/25` and `192.168.10.128/25` segments.
 
 
 2. **Interface Operational Status**
+
 Verification that all physical links are "Up/Up" and assigned to the correct gateway interfaces.
 
+3. **Deep Dive: Configuration & Security (Expand to View)****
+**SSH Management Status****
+Confirms that the RSA key pair (1024-bit) was successfully generated and the SSH version 1.99/2.0 is active for secure remote management.
+
+**Full Device Configuration**
+The complete `running-config` showing `service password-encryption`, `enable secret`, and `line vty` security implementations.
+
+
+4. **End-to-End Connectivity Proof (ICMP)**
+This screenshot/snippet demonstrates a successful ping from **PC0** in Subnet A to **PC1** in Subnet B, proving the router is successfully moving traffic between the two broadcast domains.
