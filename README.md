@@ -2,11 +2,6 @@
 <img width="493" height="504" alt="image" src="https://github.com/user-attachments/assets/23656eb1-3782-4d09-acdc-39e9f437fb2a" />
 <img width="926" height="500" alt="image" src="https://github.com/user-attachments/assets/d6068c70-89bc-443f-bd0e-3ad7b1b244ed" />
 
-
-* **
-* **
-* **
-
 ## Project Overview
 This project involved the end-to-end design and physical deployment of a multi-subnet network within Cisco Packet Tracer's Physical Mode. Unlike standard logical labs, this required manual hardware racking, power management, and out-of-band management via console cabling. The project demonstrates proficiency in subnetting design, physical layer connectivity, and network hardening.
 
@@ -45,4 +40,8 @@ Action: Enabled GigabitEthernet interfaces and assigned gateway addresses.
 
 ## Verification & Connectivity Tests
 <img width="558" height="276" alt="image" src="https://github.com/user-attachments/assets/dcf34ff2-0163-474e-8210-96203c866ce3" />
-**Reflection**: This lab reinforced the importance of Layer 1 troubleshooting. In physical Mode, connectivity issues are often hardware-related (power, cable type, or port choice) rather than just configuration errors. Documenting the cabling map was essential for maitaining order in the multi-switch enviroment.
+* **Reflection**: This lab reinforced the importance of Layer 1 troubleshooting. In physical Mode, connectivity issues are often hardware-related (power, cable type, or port choice) rather than just configuration errors. Documenting the cabling map was essential for maitaining order in the multi-switch enviroment.
+
+## Techincal Veriication & Verification Artifacts
+The following sections provice documented proof of the network's operational status across the Physial, Data and Management planes
+
