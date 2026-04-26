@@ -23,3 +23,7 @@ This project involved the end-to-end design and physical deployment of a multi-s
 Step 1: Physical Layer & Out-of-Band Management
 Action: Racked devices in a standard telecommunications closet layout. Connected PC0 to the Router’s Console port using an RS-232 to RJ-45 Roll-Over cable.
 Troubleshooting: Identified and corrected a terminal configuration mismatch (Parity settings) to establish a clean CLI session.
+
+Step 2: Interface Configuration & Subnetting
+Logic: Divided the class C block into two subnets.
+Action: Enabled GigabitEthernet interfaces and assigned gateway addresses.
