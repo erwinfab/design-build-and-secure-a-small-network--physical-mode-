@@ -20,7 +20,7 @@ This project involved the end-to-end design and physical deployment of a multi-s
 <img width="574" height="389" alt="image" src="https://github.com/user-attachments/assets/014eeb3c-31d3-47e6-b929-681e477ec26f" />
 
 ## Configuration & Implementation Steps
-Step 1: Physical Layer & Out-of-Band Management
+**Step 1**: Physical Layer & Out-of-Band Management
 Action: Racked devices in a standard telecommunications closet layout. Connected PC0 to the Router’s Console port using an RS-232 to RJ-45 Roll-Over cable.
 Troubleshooting: Identified and corrected a terminal configuration mismatch (Parity settings) to establish a clean CLI session.
 
