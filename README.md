@@ -1,6 +1,5 @@
 # Design, Build, and Secure a Small Network (Physical Mode)
-<img width="493" height="504" alt="image" src="https://github.com/user-attachments/assets/23656eb1-3782-4d09-acdc-39e9f437fb2a" />
-<img width="686" height="449" alt="image" src="https://github.com/user-attachments/assets/e4e9b937-eee5-4d29-a8c5-711bc704cacc" />
+<img width="493" height="504" alt="image" src="https://github.com/user-attachments/assets/23656eb1-3782-4d09-acdc-39e9f437fb2a" /> <img width="686" height="449" alt="image" src="https://github.com/user-attachments/assets/45bd050f-81ed-41d6-a77c-7408216324c0" />
 
 ## Project Overview
 This project involved the end-to-end design and physical deployment of a multi-subnet network within Cisco Packet Tracer's Physical Mode. Unlike standard logical labs, this required manual hardware racking, power management, and out-of-band management via console cabling. The project demonstrates proficiency in subnetting design, physical layer connectivity, and network hardening.
