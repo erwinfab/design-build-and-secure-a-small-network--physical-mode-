@@ -49,5 +49,12 @@ Action: Enabled GigabitEthernet interfaces and assigned gateway addresses.
 * **Reflection**: This lab reinforced the importance of Layer 1 troubleshooting. In physical Mode, connectivity issues are often hardware-related (power, cable type, or port choice) rather than just configuration errors. Documenting the cabling map was essential for maitaining order in the multi-switch enviroment.
 
 ## Techincal Veriication & Verification Artifacts
-The following sections provice documented proof of the network's operational status across the Physial, Data and Management planes
+The following sections provice documented proof of the network's operational status across the Physial, Data and Management planes.
+
+1. **Layer 3 Routing & Subnet Integrity**
+This output confirms that the Cisco 4321 router is correctly processing the VLSM design and recognizes both the `192.168.10.0/25` and `192.168.10.128/25` segments.
+
+
+2. **Interface Operational Status**
+Verification that all physical links are "Up/Up" and assigned to the correct gateway interfaces.
 
