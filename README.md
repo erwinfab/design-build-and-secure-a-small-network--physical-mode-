@@ -1,6 +1,4 @@
 # Design, Build, and Secure a Small Network (Physical Mode)
-### Phsical Implementation 
-<img width="449" height="470" alt="image" src="https://github.com/user-attachments/assets/c773e47c-12ea-4597-bf26-445175e41f56" /><img width="686" height="449" alt="image" src="https://github.com/user-attachments/assets/45bd050f-81ed-41d6-a77c-7408216324c0" />
 
 ## Project Overview
 This project involved the end-to-end design and physical deployment of a multi-subnet network within Cisco Packet Tracer's Physical Mode. Unlike standard logical labs, this required manual hardware racking, power management, and out-of-band management via console cabling. The project demonstrates proficiency in subnetting design, physical layer connectivity, and network hardening.
@@ -11,6 +9,10 @@ This project involved the end-to-end design and physical deployment of a multi-s
 * **IPv4 Subnetting (VLSM)**: Designed a custom addressing scheme to optimize address space.
 * **SSH Protocol**: Implemented for secure remote management.
 * **Network Security**: Applied password encryption and console hardening.
+
+## Phsical Implementation 
+<img width="449" height="470" alt="image" src="https://github.com/user-attachments/assets/c773e47c-12ea-4597-bf26-445175e41f56" /><img width="686" height="449" alt="image" src="https://github.com/user-attachments/assets/45bd050f-81ed-41d6-a77c-7408216324c0" />
+**Physical** Infrastructure Details:
 
 ## Objectives
 1. **Physical Hardware Deployment**: Manually rack and power one Cisco 4321 router and two Cisco 2960 switches.
