@@ -48,7 +48,7 @@ This project involved the end-to-end design and physical deployment of a multi-s
 
 ## Verification & Connectivity Tests
 <img width="558" height="276" alt="image" src="https://github.com/user-attachments/assets/dcf34ff2-0163-474e-8210-96203c866ce3" />
-* **Reflection**: This lab reinforced the importance of Layer 1 troubleshooting. In physical Mode, connectivity issues are often hardware-related (power, cable type, or port choice) rather than just configuration errors. Documenting the cabling map was essential for maitaining order in the multi-switch enviroment.
+*Reflection*: This lab reinforced the importance of Layer 1 troubleshooting. In physical Mode, connectivity issues are often hardware-related (power, cable type, or port choice) rather than just configuration errors. Documenting the cabling map was essential for maitaining order in the multi-switch enviroment.
 
 ## Techincal Veriication & Verification Artifacts
 The following sections provice documented proof of the network's operational status across the Physial, Data and Management planes.
