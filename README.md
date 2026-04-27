@@ -76,3 +76,4 @@ The following sections provice documented proof of the network's operational sta
 
 4. **End-to-End Connectivity Proof (ICMP)**
 * This screenshot/snippet demonstrates a successful ping from **PC0** in Subnet A to **PC1** in Subnet B, proving the router is successfully moving traffic between the two broadcast domains.
+<img width="422" height="250" alt="image" src="https://github.com/user-attachments/assets/6e93b054-ab09-4003-bd9e-3b246eccea09" />
