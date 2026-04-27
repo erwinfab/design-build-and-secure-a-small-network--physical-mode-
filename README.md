@@ -35,8 +35,8 @@ This project involved the end-to-end design and physical deployment of a multi-s
 
 * **Step 2**: Interface Configuration & Subnetting
 
-  **Logic**: Divided the class C block into two subnets.
-  **Action**: Enabled GigabitEthernet interfaces and assigned gateway addresses.
+  * **Logic**: Divided the class C block into two subnets.
+  * **Action**: Enabled GigabitEthernet interfaces and assigned gateway addresses.
 <img width="511" height="343" alt="image" src="https://github.com/user-attachments/assets/b78ec5eb-f73b-464c-ab23-74948a4ff06b" />
 
 * **Step 3**: Security Hardening (SSH & Encryption)
@@ -48,6 +48,7 @@ This project involved the end-to-end design and physical deployment of a multi-s
 
 ## Verification & Connectivity Tests
 <img width="558" height="276" alt="image" src="https://github.com/user-attachments/assets/dcf34ff2-0163-474e-8210-96203c866ce3" />
+
 *Reflection*: This lab reinforced the importance of Layer 1 troubleshooting. In physical Mode, connectivity issues are often hardware-related (power, cable type, or port choice) rather than just configuration errors. Documenting the cabling map was essential for maitaining order in the multi-switch enviroment.
 
 ## Techincal Veriication & Verification Artifacts
