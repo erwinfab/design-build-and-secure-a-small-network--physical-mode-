@@ -15,7 +15,7 @@ This project involved the end-to-end design and physical deployment of a multi-s
 **Physical Infrastructure Details**:
 * **Rack Mounting**: 1U Cisco 4321 Integrated Services Router and two 1U Cisco 2960 Catalyst Switches mounted in a standard 19-inch rack.
 * **Power Management**: All network nodes are integrated into a centralized Power Distribution Unit (PDU) for surge protection and power redundancy.
-* **Cabling Standards**: * Data Plane: Copper Straight-Through (Green Cables) cabling utilized for Router-to-Switch uplinks and Host-to-Switch access links.
+* **Cabling Standards**: Data Plane: Copper Straight-Through (Green Cables) cabling utilized for Router-to-Switch uplinks and Host-to-Switch access links.
 * **Management Plane**: RJ-45 to RS-232 Roll-Over (Console/Blue Cable) cabling used for out-of-band configuration and monitoring via PC0.
 
 ## Objectives
@@ -29,20 +29,22 @@ This project involved the end-to-end design and physical deployment of a multi-s
 
 ## Configuration & Implementation Steps
 * **Step 1**: Physical Layer & Out-of-Band Management
- * **Action**: Racked devices in a standard telecommunications closet layout. Connected PC0 to the Router’s Console port using an RS-232 to RJ-45 Roll-Over cable.
- * **Troubleshooting**: Identified and corrected a terminal configuration mismatch (Parity settings) to establish a clean CLI session.
+
+  * **Action**: Racked devices in a standard telecommunications closet layout. Connected PC0 to the Router’s Console port using an RS-232 to RJ-45 Roll-Over cable.
+  * **Troubleshooting**: Identified and corrected a terminal configuration mismatch (Parity settings) to establish a clean CLI session.
 
 * **Step 2**: Interface Configuration & Subnetting
- **Logic**: Divided the class C block into two subnets.
- **Action**: Enabled GigabitEthernet interfaces and assigned gateway addresses.
+
+  **Logic**: Divided the class C block into two subnets.
+  **Action**: Enabled GigabitEthernet interfaces and assigned gateway addresses.
 <img width="511" height="343" alt="image" src="https://github.com/user-attachments/assets/b78ec5eb-f73b-464c-ab23-74948a4ff06b" />
 
 * **Step 3**: Security Hardening (SSH & Encryption)
-* **Action**: Moved management from insecure console access to encrypted SSH.
+  * **Action**: Moved management from insecure console access to encrypted SSH.
 * **Commands**:
- * Generated 1024-bit RSA keys `crpyto key generate rsa`.
- * Configured `transport input` ssh on VTY lines.
- * Enabled `service password-encryption` to protect sensitive data in the configuration file.
+  * Generated 1024-bit RSA keys `crpyto key generate rsa`.
+  * Configured `transport input` ssh on VTY lines.
+  * Enabled `service password-encryption` to protect sensitive data in the configuration file.
 
 ## Verification & Connectivity Tests
 <img width="558" height="276" alt="image" src="https://github.com/user-attachments/assets/dcf34ff2-0163-474e-8210-96203c866ce3" />
