@@ -20,8 +20,11 @@ This project involved the end-to-end design and physical deployment of a multi-s
 
 ## Objectives
 **1. Physical Hardware Deployment**: Manually rack and power one Cisco 4321 router and two Cisco 2960 switches.
+
 **2. Layer 1 Connectivity**: Establish data links using Copper Straight-Through cables and management links using Roll-Over (Console) cables.
+
 **3. Subnet Design**: Partition a 192.168.10.0/24 network into two /25 subnets to support separate broadcast domains.
+
 **4. Network Hardening**: Configure SSH, encrypted secrets, and banner warnings to secure the infrastructure.
 
 ## Addressing Table (Custom Design)
