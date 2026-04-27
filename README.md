@@ -52,21 +52,24 @@ Action: Enabled GigabitEthernet interfaces and assigned gateway addresses.
 The following sections provice documented proof of the network's operational status across the Physial, Data and Management planes.
 
 1. **Layer 3 Routing & Subnet Integrity**
-
-This output confirms that the Cisco 4321 router is correctly processing the VLSM design and recognizes both the `192.168.10.0/25` and `192.168.10.128/25` segments.
-
+* This output confirms that the Cisco 4321 router is correctly processing the VLSM design and recognizes both the `192.168.10.0/25` and `192.168.10.128/25` segments.
+<img width="584" height="367" alt="image" src="https://github.com/user-attachments/assets/72cb68d6-7654-472a-8e3a-e5c163969d13" />
 
 2. **Interface Operational Status**
-
-Verification that all physical links are "Up/Up" and assigned to the correct gateway interfaces.
+* Verification that all physical links are "Up/Up" and assigned to the correct gateway interfaces.
+<img width="593" height="135" alt="image" src="https://github.com/user-attachments/assets/b29ac170-9a11-4dec-8902-dd1971799716" />
 
 3. **Deep Dive: Configuration & Security (Expand to View)****
 **SSH Management Status****
-Confirms that the RSA key pair (1024-bit) was successfully generated and the SSH version 1.99/2.0 is active for secure remote management.
+* Confirms that the RSA key pair (1024-bit) was successfully generated and the SSH version 1.99/2.0 is active for secure remote management.
+<img width="449" height="106" alt="image" src="https://github.com/user-attachments/assets/c6f2d105-32e3-496f-a86a-2c5cc8e4e0a8" />
 
 **Full Device Configuration**
-The complete `running-config` showing `service password-encryption`, `enable secret`, and `line vty` security implementations.
+* The complete `running-config` showing `service password-encryption`, `enable secret`, and `line vty` security implementations.
+<img width="413" height="468" alt="image" src="https://github.com/user-attachments/assets/01181f90-448d-42de-8aef-445d8ad287e6" />
+<img width="400" height="63" alt="image" src="https://github.com/user-attachments/assets/e2b89312-14ec-4160-a977-700dcd64cffe" />
+<img width="307" height="501" alt="image" src="https://github.com/user-attachments/assets/c866a0b8-d4fb-4c6c-bb94-b4c0b5471259" />
 
 
 4. **End-to-End Connectivity Proof (ICMP)**
-This screenshot/snippet demonstrates a successful ping from **PC0** in Subnet A to **PC1** in Subnet B, proving the router is successfully moving traffic between the two broadcast domains.
+* This screenshot/snippet demonstrates a successful ping from **PC0** in Subnet A to **PC1** in Subnet B, proving the router is successfully moving traffic between the two broadcast domains.
