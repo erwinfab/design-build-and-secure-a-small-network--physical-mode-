@@ -29,20 +29,20 @@ This project involved the end-to-end design and physical deployment of a multi-s
 
 ## Configuration & Implementation Steps
 * **Step 1**: Physical Layer & Out-of-Band Management
-* **Action**: Racked devices in a standard telecommunications closet layout. Connected PC0 to the Router’s Console port using an RS-232 to RJ-45 Roll-Over cable.
-* **Troubleshooting**: Identified and corrected a terminal configuration mismatch (Parity settings) to establish a clean CLI session.
+ * **Action**: Racked devices in a standard telecommunications closet layout. Connected PC0 to the Router’s Console port using an RS-232 to RJ-45 Roll-Over cable.
+ * **Troubleshooting**: Identified and corrected a terminal configuration mismatch (Parity settings) to establish a clean CLI session.
 
 * **Step 2**: Interface Configuration & Subnetting
-**Logic**: Divided the class C block into two subnets.
-**Action**: Enabled GigabitEthernet interfaces and assigned gateway addresses.
+ **Logic**: Divided the class C block into two subnets.
+ **Action**: Enabled GigabitEthernet interfaces and assigned gateway addresses.
 <img width="511" height="343" alt="image" src="https://github.com/user-attachments/assets/b78ec5eb-f73b-464c-ab23-74948a4ff06b" />
 
 * **Step 3**: Security Hardening (SSH & Encryption)
 * **Action**: Moved management from insecure console access to encrypted SSH.
 * **Commands**:
-* Generated 1024-bit RSA keys `crpyto key generate rsa`.
-* Configured `transport input` ssh on VTY lines.
-* Enabled `service password-encryption` to protect sensitive data in the configuration file.
+ * Generated 1024-bit RSA keys `crpyto key generate rsa`.
+ * Configured `transport input` ssh on VTY lines.
+ * Enabled `service password-encryption` to protect sensitive data in the configuration file.
 
 ## Verification & Connectivity Tests
 <img width="558" height="276" alt="image" src="https://github.com/user-attachments/assets/dcf34ff2-0163-474e-8210-96203c866ce3" />
@@ -59,8 +59,8 @@ The following sections provice documented proof of the network's operational sta
 * Verification that all physical links are "Up/Up" and assigned to the correct gateway interfaces.
 <img width="593" height="135" alt="image" src="https://github.com/user-attachments/assets/b29ac170-9a11-4dec-8902-dd1971799716" />
 
-3. **Deep Dive: Configuration & Security (Expand to View)****
-**SSH Management Status****
+3. **Deep Dive: Configuration & Security (Expand to View)**
+**SSH Management Status**
 * Confirms that the RSA key pair (1024-bit) was successfully generated and the SSH version 1.99/2.0 is active for secure remote management.
 <img width="449" height="106" alt="image" src="https://github.com/user-attachments/assets/c6f2d105-32e3-496f-a86a-2c5cc8e4e0a8" />
 
