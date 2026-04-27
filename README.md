@@ -19,10 +19,10 @@ This project involved the end-to-end design and physical deployment of a multi-s
 * **Management Plane**: RJ-45 to RS-232 Roll-Over (Console/Blue Cable) cabling used for out-of-band configuration and monitoring via PC0.
 
 ## Objectives
-1. **Physical Hardware Deployment**: Manually rack and power one Cisco 4321 router and two Cisco 2960 switches.
-2. **Layer 1 Connectivity**: Establish data links using Copper Straight-Through cables and management links using Roll-Over (Console) cables.
-3. **Subnet Design**: Partition a 192.168.10.0/24 network into two /25 subnets to support separate broadcast domains.
-4. **Network Hardening**: Configure SSH, encrypted secrets, and banner warnings to secure the infrastructure.
+**1. Physical Hardware Deployment**: Manually rack and power one Cisco 4321 router and two Cisco 2960 switches.
+**2. Layer 1 Connectivity**: Establish data links using Copper Straight-Through cables and management links using Roll-Over (Console) cables.
+**3. Subnet Design**: Partition a 192.168.10.0/24 network into two /25 subnets to support separate broadcast domains.
+**4. Network Hardening**: Configure SSH, encrypted secrets, and banner warnings to secure the infrastructure.
 
 ## Addressing Table (Custom Design)
 <img width="574" height="389" alt="image" src="https://github.com/user-attachments/assets/014eeb3c-31d3-47e6-b929-681e477ec26f" />
@@ -54,15 +54,15 @@ This project involved the end-to-end design and physical deployment of a multi-s
 ## Techincal Veriication & Verification Artifacts
 The following sections provice documented proof of the network's operational status across the Physial, Data and Management planes.
 
-1. **Layer 3 Routing & Subnet Integrity**
+**1. Layer 3 Routing & Subnet Integrity**
 * This output confirms that the Cisco 4321 router is correctly processing the VLSM design and recognizes both the `192.168.10.0/25` and `192.168.10.128/25` segments.
 <img width="584" height="367" alt="image" src="https://github.com/user-attachments/assets/72cb68d6-7654-472a-8e3a-e5c163969d13" />
 
-2. **Interface Operational Status**
+**2. Interface Operational Status**
 * Verification that all physical links are "Up/Up" and assigned to the correct gateway interfaces.
 <img width="593" height="135" alt="image" src="https://github.com/user-attachments/assets/b29ac170-9a11-4dec-8902-dd1971799716" />
 
-3. **Deep Dive: Configuration & Security (Expand to View)**
+**3. Deep Dive: Configuration & Security (Expand to View)**
 **SSH Management Status**
 * Confirms that the RSA key pair (1024-bit) was successfully generated and the SSH version 1.99/2.0 is active for secure remote management.
 <img width="449" height="106" alt="image" src="https://github.com/user-attachments/assets/c6f2d105-32e3-496f-a86a-2c5cc8e4e0a8" />
